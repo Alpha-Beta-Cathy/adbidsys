@@ -1,4 +1,5 @@
-from toy_data import DummyAdPerformanceGenerator
+from adbidsys.toy_data import DummyAdPerformanceGenerator
+from adbidsys.ad_bidding_main import AdBidQL
 
 generator = DummyAdPerformanceGenerator(n_days=90, random_seed=929)
 df = generator.generate()
