@@ -1,3 +1,5 @@
+from toy_data import DummyAdPerformanceGenerator
+
 generator = DummyAdPerformanceGenerator(n_days=90, random_seed=929)
 df = generator.generate()
 seed = generator.get_seed_values()
